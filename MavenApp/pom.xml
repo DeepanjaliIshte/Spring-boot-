@@ -1,0 +1,39 @@
+<project xmlns="https://maven.apache.org/POM/4.0.0"
+ xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="https://maven.apache.org/POM/4.0.0
+  https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.program.moven</groupId>
+  <artifactId>MavenApp</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <description>to understand spring boot app</description>
+  <parent>
+	   <groupId>org.springframework.boot</groupId>
+	    <artifactId>spring-boot-starter-parent</artifactId>
+	    <version>3.2.0</version>
+  </parent>
+  
+  <dependencies>
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-web</artifactId>
+		    <version>3.2.0</version>
+		</dependency>
+	
+	 </dependencies>	
+	
+	<!--java version-->
+	<java.version> 1.8</java.version>
+	
+	<!--spring maven plugin-->
+	<build>
+	  <plugins>
+	    <plugin>
+	      <groupId>org.springframework.boot</groupId>
+	      <artifactId>spring-boot-maven-plugin</artifactId>
+	    </plugin>
+  	</plugins>
+	</build>
+	
+</project>
